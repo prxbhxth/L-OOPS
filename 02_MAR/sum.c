@@ -6,7 +6,6 @@ int main(){
 	scanf("%d", &n);
 
 	while(n > 0){
-		result += n;
-		n--;
+		result += n--;
 	}printf("The Sum is %d\n", result);
 }
